@@ -11,11 +11,12 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("calculator.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 300, 600);
+        Scene scene = new Scene(fxmlLoader.load(), 300, 500);
         stage.setResizable(false);
         stage.setTitle("Calculator!");
         stage.setScene(scene);
         stage.show();
+        System.out.println("marameochuchu");
     }
 
     public static void main(String[] args) {
