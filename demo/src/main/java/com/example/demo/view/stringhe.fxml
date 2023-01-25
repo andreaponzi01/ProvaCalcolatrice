@@ -7,8 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1040.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1040.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo.appcontroller.StringController">
    <children>
       <TextField fx:id="stringA" layoutX="333.0" layoutY="138.0" />
       <Text layoutX="424.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ISPW EXAM" AnchorPane.leftAnchor="424.0" AnchorPane.rightAnchor="424.423828125">
@@ -27,10 +26,10 @@
             <Font size="19.0" />
          </font>
       </Text>
-      <Button fx:id="action1" layoutX="126.0" layoutY="247.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action1" underline="true" AnchorPane.topAnchor="247.0" />
-      <Button fx:id="action11" layoutX="835.0" layoutY="249.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action4" underline="true" AnchorPane.topAnchor="249.0" />
-      <Button fx:id="action3" layoutX="606.0" layoutY="248.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action3" underline="true" AnchorPane.topAnchor="248.0" />
-      <Button fx:id="action2" layoutX="378.0" layoutY="247.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action2" underline="true" AnchorPane.topAnchor="247.0" />
+      <Button fx:id="action1" layoutX="126.0" layoutY="247.0" mnemonicParsing="false" onAction="#Action1" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action1" underline="true" AnchorPane.topAnchor="247.0" />
+      <Button fx:id="action4" layoutX="835.0" layoutY="249.0" mnemonicParsing="false" onAction="#Action4" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action4" underline="true" AnchorPane.topAnchor="249.0" />
+      <Button fx:id="action3" layoutX="606.0" layoutY="248.0" mnemonicParsing="false" onAction="#Action3" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action3" underline="true" AnchorPane.topAnchor="248.0" />
+      <Button fx:id="action2" layoutX="378.0" layoutY="247.0" mnemonicParsing="false" onAction="#Action2" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action2" underline="true" AnchorPane.topAnchor="247.0" />
       <Text fx:id="result1" layoutX="122.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="stringa" AnchorPane.topAnchor="321.0">
          <font>
             <Font size="26.0" />
