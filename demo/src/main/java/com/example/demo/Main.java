@@ -16,6 +16,7 @@ public class Main extends Application {
         stage.setTitle("ISPWEXAM!");
         stage.setScene(scene);
         stage.show();
+        //se metti la view ricordati di mettere view come resources vedere NIGHTSOUT 
     }
 
     public static void main(String[] args) {

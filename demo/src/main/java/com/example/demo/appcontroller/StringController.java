@@ -3,7 +3,6 @@ package com.example.demo.appcontroller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 
@@ -30,19 +29,19 @@ public class StringController {
     private Button action4;
 
     @FXML
-    private void Action1(ActionEvent ae){
+    private void action1(ActionEvent ae){
         result1.setText(stringA.getText());
     }
     @FXML
-    private void Action2(ActionEvent ae){
+    private void action2(ActionEvent ae){
         result2.setText(stringB.getText());
     }
     @FXML
-    private void Action3(ActionEvent ae){
+    private void action3(ActionEvent ae){
         result3.setText(stringA.getText()+stringB.getText());
     }
     @FXML
-    private void Action4(ActionEvent ae){
+    private void action4(ActionEvent ae){
         result4.setText(stringB.getText()+stringA.getText());
     }
 }
