@@ -10,13 +10,12 @@ import java.io.IOException;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("calculator.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 300, 500);
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/calcolatrice.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setResizable(false);
-        stage.setTitle("Calculator!");
+        stage.setTitle("ISPWEXAM!");
         stage.setScene(scene);
         stage.show();
-        System.out.println("marameochuchu");
     }
 
     public static void main(String[] args) {

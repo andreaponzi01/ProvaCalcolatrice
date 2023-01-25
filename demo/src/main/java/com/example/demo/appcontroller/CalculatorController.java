@@ -1,26 +1,22 @@
-package com.example.demo;
+package com.example.demo.appcontroller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 public class CalculatorController {
-    @FXML
-    private Label welcomeText;
 
     @FXML
     private TextField txt_result;
-    String op2="";
-    String op="";
-    int c=0;
-    int x=0;
-    long num1;
-    long num2;
+    private String op="";
+    private int c=0;
+    private int x=0;
+    private long num1;
 
 
-    public void Number(ActionEvent ae){
+    @FXML
+    private void Number(ActionEvent ae){
         String no=((Button)ae.getSource()).getText();
         if(c==0)
         {
@@ -36,8 +32,8 @@ public class CalculatorController {
             txt_result.setText(txt_result.getText()+no);
         }
     }
-
-    public void Operation(ActionEvent ae){
+    @FXML
+    private void Operation(ActionEvent ae){
         String operation=((Button)ae.getSource()).getText();
         if(!operation.equals("=")) {
             if (!op.equals("")) {
@@ -53,9 +49,9 @@ public class CalculatorController {
             if(op.equals("")){
                 return;
             }
-            num2=Long.parseLong(txt_result.getText());
-            calcolatrice(num1,num2,op);
-            op2=op;
+            long num2 = Long.parseLong(txt_result.getText());
+            calcolatrice(num1, num2,op);
+            String op2 = op;
             op="";
             c=1;
             x=0;
@@ -64,7 +60,7 @@ public class CalculatorController {
 
     }
 
-    public void calcolatrice(long n1,long n2,String op){
+    private void calcolatrice(long n1,long n2,String op){
         switch (op) {
             case "+" -> txt_result.setText(n1 + n2 + "");
             case "-" -> txt_result.setText(n1 - n2 + "");

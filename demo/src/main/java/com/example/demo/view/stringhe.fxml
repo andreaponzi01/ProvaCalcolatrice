@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1040.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="stringA" layoutX="333.0" layoutY="138.0" />
+      <Text layoutX="424.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ISPW EXAM" AnchorPane.leftAnchor="424.0" AnchorPane.rightAnchor="424.423828125">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Text layoutX="193.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert a string A:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <TextField fx:id="stringB" layoutX="674.0" layoutY="137.0" />
+      <Text layoutX="534.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert a string B:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="action1" layoutX="126.0" layoutY="247.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action1" underline="true" AnchorPane.topAnchor="247.0" />
+      <Button fx:id="action11" layoutX="835.0" layoutY="249.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action4" underline="true" AnchorPane.topAnchor="249.0" />
+      <Button fx:id="action3" layoutX="606.0" layoutY="248.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action3" underline="true" AnchorPane.topAnchor="248.0" />
+      <Button fx:id="action2" layoutX="378.0" layoutY="247.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="68.0" style="-fx-border-color: black; -fx-background-color: white; -fx-border-width: 3;" text="action2" underline="true" AnchorPane.topAnchor="247.0" />
+      <Text fx:id="result1" layoutX="122.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="stringa" AnchorPane.topAnchor="321.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Line endX="-100.0" endY="336.67193603515625" layoutX="396.0" layoutY="256.0" startX="-100.0" AnchorPane.topAnchor="268.5" />
+      <Line endX="-100.0" endY="336.67193603515625" layoutX="620.0" layoutY="269.0" startX="-100.0" AnchorPane.topAnchor="268.5" />
+      <Line endX="-100.0" endY="336.67193603515625" layoutX="853.0" layoutY="266.0" startX="-100.0" AnchorPane.topAnchor="268.5" />
+      <Text fx:id="result4" layoutX="832.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="stringa" AnchorPane.topAnchor="321.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="result3" layoutX="600.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="stringa" AnchorPane.topAnchor="321.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="result2" layoutX="374.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="stringa" AnchorPane.topAnchor="321.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
